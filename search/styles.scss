@@ -1,0 +1,36 @@
+/* variables */
+$color: #575AAE;
+
+/* main styles */
+#adjust-container-flex
+{    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    align-content: flex-end
+}
+.search-container {
+    padding: 10rem;
+}
+form
+{
+ padding: 2rem;
+}
+.changecolor
+{
+color: $color;
+}
+.adjust-nav-bg
+{
+    background-color: #E4E5FE;
+   
+}
+.search-img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
