@@ -10,15 +10,31 @@
 }
 
 .search-container {
-  padding: 4rem;
+  margin: 4rem;
 }
 
 form {
-  padding: 2rem;
+  margin: 2rem;
 }
 
 .changecolor {
   color: #575AAE;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.changecolor:hover {
+  color: #F59FAB;
+}
+
+.change-btn-color {
+  background-color: #F59FAB;
+  color: #fff;
+}
+
+.change-btn-color:hover {
+  background-color: #f2909d;
 }
 
 .adjust-nav-bg {
@@ -29,7 +45,13 @@ form {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 35%;
+}
+
+@media screen and (max-width: 500px) {
+  .sm-screen-text {
+    font-size: xx-small;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
