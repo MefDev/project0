@@ -1,5 +1,7 @@
 /* variables */
 $color: #575AAE;
+$btn-color: #F59FAB;
+
 
 /* main styles */
 #adjust-container-flex
@@ -11,7 +13,7 @@ $color: #575AAE;
     align-content: flex-end
 }
 .search-container {
-    padding: 10rem;
+    padding: 8rem;
 }
 form
 {
@@ -19,7 +21,28 @@ form
 }
 .changecolor
 {
+
 color: $color;
+font-weight: 600;
+letter-spacing: 0.08rem;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.changecolor:hover
+{
+    color: $btn-color;
+}
+.change-btn-color
+{
+    background-color: $btn-color;
+    color: #fff;
+}
+.change-btn-color:hover
+{
+    background-color: #f2909d;
+   
+   
 }
 .adjust-nav-bg
 {
@@ -31,6 +54,14 @@ color: $color;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 35%;
 }
+
+@media screen and (max-width: 500px) {
+    .sm-screen-text
+    {
+      font-size: xx-small;
+       
+    }
+  }
 
