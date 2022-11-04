@@ -18,10 +18,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link changecolor" aria-current="page" href="image.html">Image Search</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link changecolor" href="advance.html">Advanced Search</a>
+                <a class="nav-link changecolor" href="index.html">Google Search</a>
               </li>
              
               
@@ -35,22 +32,29 @@
         
       </div>
       <div class="search-container">
-        <img class="search-img"src="./static/images/Search.svg" alt="search's image">
-        <form  action="https://www.google.com/search">
-          <div class="d-flex justify-content-center">
-            <input  class="form-control me-2" type="text" name="q">
-          </div>
-          <br>
-        <div class="d-flex justify-content-center">
-            <input class="btn change-btn-color  sm-screen-text" type="submit" value="Google Search">
-            <div style="margin-left: 0.2rem;">
-              <a  class="btn change-btn-color  sm-screen-text" href="https://www.google.com/doodles">I'm feeling lucky</a>
-            </div> 
-           
-        </div>
-        
+        <img class="search-img"src="static/images/advanced.svg" alt="search's image">
+        <form action="https://www.google.com/search">
+            <div class="d-flex justify-content-start">
+            <h6>All these words: </h6><input  class="form-control me-2" type="text" name="as_q">
+            </div>
+           <br>
+            <div class="d-flex justify-content-start">
+                <h6>This exact word or phrase:</h6><input  class="form-control me-2" type="text" name="as_epq"> 
+            </div>
+            <br>
+            <div class="d-flex justify-content-start">
+                <h6>This exact word or phrase: Any of these words:</h6><input  class="form-control me-2" type="text" name="as_oq"> 
+            </div>
+            <br>
+            <div class="d-flex justify-content-start">
+                <h6>None of these words:</h6><input  class="form-control me-2" type="text" name="as_eq">
+            </div>
+             <br>
+              <div class="d-flex justify-content-center">
+                <input class="btn btn-primary text-light  sm-screen-text" type="submit" value="Advanced Search">
+              </div>
+                
         </form>
-       
       </div>
        
     
